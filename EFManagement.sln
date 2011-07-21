@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement", "EFManagement\EFManagement.csproj", "{6F5566AA-364D-42D2-8DC6-520FDB5BEA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement.Domain", "EFManagement.Domain\EFManagement.Domain.csproj", "{743C4396-EE75-4F54-8AB1-A9D2E2F32214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement.Web", "EFManagement.Web\EFManagement.Web.csproj", "{FAAD904B-671A-479D-A9A4-E92037BF8746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5566AA-364D-42D2-8DC6-520FDB5BEA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5566AA-364D-42D2-8DC6-520FDB5BEA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5566AA-364D-42D2-8DC6-520FDB5BEA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5566AA-364D-42D2-8DC6-520FDB5BEA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743C4396-EE75-4F54-8AB1-A9D2E2F32214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743C4396-EE75-4F54-8AB1-A9D2E2F32214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743C4396-EE75-4F54-8AB1-A9D2E2F32214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743C4396-EE75-4F54-8AB1-A9D2E2F32214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAD904B-671A-479D-A9A4-E92037BF8746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAD904B-671A-479D-A9A4-E92037BF8746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAD904B-671A-479D-A9A4-E92037BF8746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAD904B-671A-479D-A9A4-E92037BF8746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
