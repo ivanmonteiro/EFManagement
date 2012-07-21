@@ -8,7 +8,7 @@ namespace EFManagement.Repository
 {
     public interface IRepository<T> where T : class
     {
-        IQueryable<T> Fetch();
+        IQueryable<T> AsQueryable();
         IEnumerable<T> GetAll();
         IEnumerable<T> Find(Func<T, bool> predicate);
         T Single(Func<T, bool> predicate);

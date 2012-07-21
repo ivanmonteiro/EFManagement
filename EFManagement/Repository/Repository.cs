@@ -52,7 +52,7 @@ namespace EFManagement.Repository
         /// Gets all records as an IQueryable
         /// </summary>
         /// <returns>An IQueryable object containing the results of the query</returns>
-        public IQueryable<T> Fetch()
+        public IQueryable<T> AsQueryable()
         {
             return ObjectSet;
         }
@@ -63,7 +63,7 @@ namespace EFManagement.Repository
         /// <returns>An IEnumberable object containing the results of the query</returns>
         public IEnumerable<T> GetAll()
         {
-            return Fetch().AsEnumerable();
+            return AsQueryable().AsEnumerable();
         }
 
         /// <summary>

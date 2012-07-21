@@ -27,7 +27,6 @@ namespace EFManagement
                 return _instance;
             }
         }
-
         private static Type _objectContextType;
 
         private static string _connectionString;
@@ -57,5 +56,6 @@ namespace EFManagement
                 return (ObjectContext)constructor.Invoke(new[] { _connectionString });
             }
         }
+
     }
 }
