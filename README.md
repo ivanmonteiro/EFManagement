@@ -6,7 +6,10 @@ Context Management for Entity Framework provides reusable UnitOfWork, Repository
 
 ## Motivation
 
-Building apps with Entity Framework I needed more granular control over transactions using ASP.NET MVC and code reusability among projects for things lole Repository boilerplate, UnitOfWork pattern and transaction attribute for asp.net mvc controllers. This is a library that I built to use on some projects, now open source!
+Building apps with Entity Framework I needed  code reusability among projects for common design patterns like Repository and UnitOfWork. 
+
+For ASP.NET MVC I needed a way to manage contexts among repositories and control over transactions using Transaction attribute for actions.
+
 
 ## Prerequisites
 
