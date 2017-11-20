@@ -2,7 +2,7 @@
 
 Author: **Ivan Monteiro Cantalice**
 
-Context Management for Entity Framework provides reusable UnitOfWork, Repository, SessionStorage, MVC Transaction Attribute for individual controller's actions. Inspired by NHibernate.
+Context Management for Entity Framework provides reusable UnitOfWork, Repository, SessionStorage, MVC Transaction Attribute for individual controller's actions.
 
 ## Motivation
 
