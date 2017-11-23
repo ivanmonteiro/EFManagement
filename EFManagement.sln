@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement", "EFManagement\EFManagement.csproj", "{6F5566AA-364D-42D2-8DC6-520FDB5BEA63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement.Domain", "EFManagement.Domain\EFManagement.Domain.csproj", "{743C4396-EE75-4F54-8AB1-A9D2E2F32214}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement.Domain", "Examples\EFManagement.Domain\EFManagement.Domain.csproj", "{743C4396-EE75-4F54-8AB1-A9D2E2F32214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement.Web", "EFManagement.Web\EFManagement.Web.csproj", "{FAAD904B-671A-479D-A9A4-E92037BF8746}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFManagement.Web", "Examples\EFManagement.Web\EFManagement.Web.csproj", "{FAAD904B-671A-479D-A9A4-E92037BF8746}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
